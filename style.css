@@ -39,6 +39,7 @@ body {
 
 img {
   width: 100%;
+  z-index: 9;
 }
 
 a {
@@ -82,21 +83,18 @@ header .container {
 }
 
 .logo.dark{
-  fill: url(logo2.png) no-repeat;
   display: flex;
   align-items: center;
   cursor: pointer;
 }
 
 .logo img {
-  color: var(--lightTwo);
   width: 150px;
   margin-right: 0.6rem;
   margin-top: -0rem;
 }
 
 .logo h3 {
-  color: var(--darkTwo);
   font-size: 1.55rem;
   line-height: 1.2;
   font-weight: 700;
@@ -133,7 +131,6 @@ header .container {
 .btn:hover {
   color: #001870 !important;
   background-color: #F1F8FC;
-  transform: scale(1) !important;
   border: 1px solid #001870;
 }
 
